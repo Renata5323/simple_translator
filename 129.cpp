@@ -1,7 +1,7 @@
 #include <iostream>
 int main(){
     using namespace std; setlocale(0,"");
-    char ru, en; int r,e,v;
+    int r,e,v;
     cout<<"[ + ] Переводчик"<< endl<<"[ 1 ] Русские слова"<<endl<<"[ 2 ] Английские слова"<<endl<<"[ 3 ] Выйти"<<endl;
     cout <<"Выберете язык: "; cin>>v;
     switch(v){
